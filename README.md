@@ -1,5 +1,10 @@
 # powershell-commands
 
+### Delete an entire folder recursively
+```powershell
+rm C:\path\to\delete -r -fo
+```
+
 ### Hide a folder
 ```powershell
 attrib +s +h D:/{{folderName}}
